@@ -14,6 +14,9 @@ import time # just for debugging
 import numpy as np
 import cv2
 
+# This is an un needed comment just for checking if git works properly
+
+
 def draw_menue(state):          # goes to a file output.py
     os.system('clear')
     print("###############")

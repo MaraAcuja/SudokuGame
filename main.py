@@ -14,7 +14,6 @@ import time # just for debugging
 import numpy as np
 import cv2
 
-# This is an un needed comment just for checking if git works properly
 
 
 def draw_menue(state):          # goes to a file output.py
@@ -24,7 +23,8 @@ def draw_menue(state):          # goes to a file output.py
     print("###############")
     if state == "play":
         # Here comes the control user commands while playing the game
-        print("Please use the following keys playing the game")
+        print("Please use the following keys playing the game")             # This is an un needed comment just for checking if git works properly
+
     else:
         print("\nWelcome! Do you want to play with me? You can play a SUDOKU.")
         print("Type PLAY to start a new game.")

@@ -2,6 +2,11 @@
 
 import os
 
+# Functional Programming:
+# All functions within this file are final, hence the input variables aren't overwritten. The
+# functions work completely side-effect-free. They are also a special case as they do not have
+# a return value.
+
 def draw_menue(state):          # goes to a file output.py
     os.system('clear')
     print("###############")
@@ -33,6 +38,12 @@ def general_structure_game_field(numbers): ### maybe for documentation purposes 
     print("    |       |       |       |  ")
     print("    |       |       |       |  ")
     print("    -------------------------  ")
+
+# Functional Programming
+# The function below is a good example as it works just with variables within the function and
+# neither the input variables nor any other variables or data is changed. So, it doesn't matter
+# how often or at what point of the algorithms this function is called it won't ever interfere
+# with another function. This makes it a side-effect-free function.
 
 def update_game_field(_numbers, _pointer_x, _pointer_y):      # goes to a file output.py
     pt_x = _pointer_x%9

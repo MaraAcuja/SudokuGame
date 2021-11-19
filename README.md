@@ -24,6 +24,12 @@ pyb publish
 ### 2 DDD
 
 ### 3 Metrics
+test coverage metrics
+code coverage
+check style
+pylint
+instability = AC/(CC+AC)
+abstrackheit = 
 
 ### 4 Clean Code Development
 

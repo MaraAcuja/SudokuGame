@@ -20,7 +20,6 @@ import sudoku_logic as logic
 
 
 def game_control(_playing_before):      # stays here or goes to a file control.py
-    #state = _playing_before
     key_input = input()
     print(key_input)
     if key_input == "PLAY" or key_input == "Play" or key_input == "play":

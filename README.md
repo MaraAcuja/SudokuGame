@@ -5,7 +5,7 @@
 ### General
 
 This repository contains a simple Sudoku game. It can be played in a shell like a linux terminal. 
-It already comes with one first easy sudoku. Furthermore it includes functionality to check if the Sudoku is solved correctly or, for the lazy ones, to let the Sudoku be solved automatically.
+It already comes with one first easy sudoku. Furthermore, it includes functionality to check if the Sudoku is solved correctly or, for the lazy ones, to let the Sudoku be solved automatically.
 
 ### Prerequisites
 
@@ -30,6 +30,16 @@ check style
 pylint
 instability = AC/(CC+AC)
 abstrackheit = 
+
+To analyse good metrics I used SonarQube which analyses the provided source code
+automatically on different metrics. SonarQube also offers an online version
+which I connected directly with my github repository. Each time I conduct a pull or push
+the code base is analysed again to keep the metrics always up-to-date.
+
+For a better visual identification I used badges to show the results of the 
+metrics on one sight. The following metrics were used:
+
+
 
 ### 4 Clean Code Development
 

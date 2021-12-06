@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sudoku_logic_tests.SudokuLogicTest-20211206112407" tests="1" file="sudoku_logic_tests.py" time="0.001" timestamp="2021-12-06T11:24:07" failures="0" errors="0" skipped="0">
+	<testcase classname="sudoku_logic_tests.SudokuLogicTest" name="test" time="0.001" timestamp="2021-12-06T11:24:07"/>
+</testsuite>

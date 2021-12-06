@@ -1,5 +1,7 @@
 # A Simple Sudoku Game
 ## Overview over Metrics 
+
+[![Build](https://app.travis-ci.com/MaraAcuja/SudokuGame.svg?branch=main)](https://app.travis-ci.com/MaraAcuja/SudokuGame.svg?branch=main)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=MaraAcuja_SudokuGame&metric=bugs)](https://sonarcloud.io/summary/new_code?id=MaraAcuja_SudokuGame)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=MaraAcuja_SudokuGame&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=MaraAcuja_SudokuGame)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=MaraAcuja_SudokuGame&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=MaraAcuja_SudokuGame)

@@ -61,7 +61,7 @@ is made with pyb
 ### 6 Unit-Tests
 
 ### 7 Continuous Delivery
-
+is made with travis - ci
 ### 8 IDE
 
 ### 9 DSL

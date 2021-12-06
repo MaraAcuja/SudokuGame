@@ -1,5 +1,0 @@
-init
-main
-sudoku_logic
-user_interactions
-user_output

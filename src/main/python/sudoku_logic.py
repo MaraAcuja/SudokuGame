@@ -14,7 +14,6 @@ def test_sudoku(_numbers):
                                 # \
                               # prevent from empty element
 #                                and _numbers[i][k] != 0):
-
                     # test if same element in squares
     for n in range(3):  # select the square
         for o in range(3): # select the square

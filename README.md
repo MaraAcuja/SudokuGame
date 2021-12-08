@@ -30,8 +30,24 @@ pyb publish
 
 ## Exercise B for Advanced Software Engineering
 ### 1 UML
+Three UML diagrams have been generated for this project. If there are colors involved,
+green means that these features have been implemented already. The yellow colors signals
+that this will be done in the future. If there are no colors it also means that is already 
+implemented.
+
+- The [activity diagram]() shows the flow between different activities, hence the printed console 
+output next to the expected user input.
+- The [use case diagram]() displays the different real world problems the software should fulfill next
+to the different users of this software.
+- Last I created a [component diagram]() to show the different components of the 
+project. I also created a [component diagram including the funding of Edlich Investments]().
 
 ### 2 DDD
+While planning the project I created a [problem space]() with several different 
+subdomains and components which have to be implemented. Some are already implemented,
+(green) some have to be implemented in the future (yellow).
+Furthermore, I created a [glossary]() to specify the domain specific ubiquitous 
+language.
 
 ### 3 Metrics
 To get good metrics I used SonarQube which analyses the provided source code
@@ -55,6 +71,29 @@ An overview over the whole SonarCloud analysis can be found [here](https://sonar
 
 
 ### 4 Clean Code Development
+[Here]() is the cheat sheet with my most important code principles. As the whole
+project is written completely in Python I decided to write also the cheat sheet in 
+Python. This is good for testing my clean code principles as for showing some special
+features like the TODO coloring in yellow.
+
+Below are five examples where I used my cheat sheet referring to the numbers in the cheat sheet.
+
+- Using verbs for functions as they do a task (cheat sheet #1): [solve_sudoku()](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L32)
+
+- Use comments for complicated structures like the not directly intuitive recursive
+solving algorithm (cheat sheet #11): [solve_sudoku()](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L47)
+
+- Don't write duplicates if a function is called several times. The test_sudoku() function
+is called within the solve_sudoku as also in main function. So it is not written twice. Both calls 
+refer to the [test_sudoku()](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L5)
+(cheat sheet #5)
+
+- Each function should have one task. As the test_sudoku() tests several cases, they were
+split into different logic parts and therefore in closures (cheat sheet #3 + #4): [test_sudoku()](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L5)
+
+- Use multiline statements, in this specific case I did a new line for each
+loop to also have the chance to comment why the loop is necessary (cheat sheet #2): [is_same_element_in_squares()](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L17)
+
 
 ### 5 Build Management
 The build management is done with pybuilder. It is the first time that I configured a build 
@@ -77,7 +116,7 @@ is the corresponding website for the CD management.
 [![Build](https://app.travis-ci.com/MaraAcuja/SudokuGame.svg?branch=main)](https://app.travis-ci.com/MaraAcuja/SudokuGame.svg?branch=main)
 
 A badge was included to always show the status of the last build process.
-Also a screenshot was added to show the result of the Travis CI-website.
+Also a [screenshot](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/travis-ci.png) was added to show the result of the Travis CI-website.
 
 ### 8 IDE
 
@@ -97,11 +136,11 @@ My favorite shortcuts are:
 - Hitting Shift twice: For searching within the whole project for a variable, a string or a function.
 
 ### 9 DSL
+DSLs are still missing in the actual version cause we didn't cover the topic in the lectures yet.
 
 ### 10 Functional Programming
 
 All over this project I tried to use as much as functional programming as possible. Below, there are some links to examples for the implementation:
-1. Final data structures [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)
-2. Side-effect-free functions [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)
-3. Higher-order functions
-4. Closured / anonymous functions
+1. Final data structures: [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)
+2. Side-effect-free functions: [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)
+3. Closured / anonymous functions: [sudoku_logic.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py)

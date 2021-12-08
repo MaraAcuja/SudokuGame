@@ -43,7 +43,7 @@ to the different users of this software.
 project. I also created a [component diagram including the funding of Edlich Investments](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/component_diagram_planned.png).
 
 ### 2 DDD
-While planning the project I created a [problem space](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ddd_prolem_space.png) with several different 
+While planning the project I created a [problem space](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ddd_problem_space.png) with several different 
 subdomains and components which have to be implemented. Some are already implemented,
 (green) some have to be implemented in the future (yellow).
 Furthermore, I created a [glossary](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ubiquitous_language.pdf) to specify the domain specific ubiquitous 

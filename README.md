@@ -35,18 +35,18 @@ green means that these features have been implemented already. The yellow colors
 that this will be done in the future. If there are no colors it also means that is already 
 implemented.
 
-- The [activity diagram]() shows the flow between different activities, hence the printed console 
+- The [activity diagram](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/activity_diagram.png) shows the flow between different activities, hence the printed console 
 output next to the expected user input.
-- The [use case diagram]() displays the different real world problems the software should fulfill next
+- The [use case diagram](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/use_case.png) displays the different real world problems the software should fulfill next
 to the different users of this software.
-- Last I created a [component diagram]() to show the different components of the 
-project. I also created a [component diagram including the funding of Edlich Investments]().
+- Last I created a [component diagram](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/component_diagram_actual.png) to show the different components of the 
+project. I also created a [component diagram including the funding of Edlich Investments](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/component_diagram_planned.png).
 
 ### 2 DDD
-While planning the project I created a [problem space]() with several different 
+While planning the project I created a [problem space](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ddd_prolem_space.png) with several different 
 subdomains and components which have to be implemented. Some are already implemented,
 (green) some have to be implemented in the future (yellow).
-Furthermore, I created a [glossary]() to specify the domain specific ubiquitous 
+Furthermore, I created a [glossary](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ubiquitous_language.pdf) to specify the domain specific ubiquitous 
 language.
 
 ### 3 Metrics
@@ -71,7 +71,7 @@ An overview over the whole SonarCloud analysis can be found [here](https://sonar
 
 
 ### 4 Clean Code Development
-[Here]() is the cheat sheet with my most important code principles. As the whole
+[Here](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/cheat_sheet.py) is the cheat sheet with my most important code principles. As the whole
 project is written completely in Python I decided to write also the cheat sheet in 
 Python. This is good for testing my clean code principles as for showing some special
 features like the TODO coloring in yellow.

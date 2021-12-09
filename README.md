@@ -29,7 +29,13 @@ pyb publish
 5. Have fun with the small challenge
 
 ## Exercise B for Advanced Software Engineering
-### 1 UML
+### 1 Git
+I used Git to frequently commit and push my code to GitHub. At the very first beginning I
+did a pull but as I work alone and I did everything in my IDE my local code base was
+always up-to-date. My git times can be seen at the [contribution chart](https://github.com/MaraAcuja) 
+in GitHub. 
+
+### 2 UML
 Three UML diagrams have been generated for this project. If there are colors involved,
 green means that these features have been implemented already. The yellow colors signals
 that this will be done in the future. If there are no colors it also means that is already 
@@ -42,14 +48,14 @@ to the different users of this software.
 - Last I created a [component diagram](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/component_diagram_actual.png) to show the different components of the 
 project. I also created a [component diagram including the funding of Edlich Investments](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/component_diagram_planned.png).
 
-### 2 DDD
+### 3 DDD
 While planning the project I created a [problem space](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ddd_problem_space.png) with several different 
 subdomains and components which have to be implemented. Some have been already implemented since then,
 (green) some have to be implemented in the future (yellow), when I received the 5 million Euro from Edlich investments.
 Furthermore, I created a [glossary](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ubiquitous_language.pdf) to specify the domain specific ubiquitous 
 language.
 
-### 3 Metrics
+### 4 Metrics
 To get good metrics I used SonarQube which analyses the provided source code
 automatically on different metrics. SonarQube also offers an online version
 which I connected directly with my github repository. Each time I conduct a pull or a push
@@ -70,7 +76,7 @@ metrics on one sight. The following metrics were used:
 An overview over the whole SonarCloud analysis can be found [here](https://sonarcloud.io/summary/overall?id=MaraAcuja_SudokuGame).
 
 
-### 4 Clean Code Development
+### 5 Clean Code Development
 [Here](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/cheat_sheet.py) is the cheat sheet with my most important code principles. As the whole
 project is written completely in Python I decided to write also the cheat sheet in 
 Python. This is good for testing my clean code principles as for showing some special
@@ -95,7 +101,7 @@ split into different logic parts and therefore in closures (cheat sheet #3 + #4)
 loop to also have the chance to comment why the loop is necessary (cheat sheet #2): [is_same_element_in_squares()](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L17)
 
 
-### 5 Build Management
+### 6 Build Management
 The build management is done with pybuilder. It is the first time that I configured a build 
 management tool myself. Before of it I was not convinced if the additional work in setting it 
 up really benefits. But as I now don't have to build all the necessary files myself or to 
@@ -104,10 +110,10 @@ worth.
 
 [Here](https://github.com/MaraAcuja/SudokuGame/blob/main/build.py) is my build file.
 
-### 6 Unit-Tests
+### 7 Unit-Tests
 The Unittests are not yet implemented.
 
-### 7 Continuous Delivery
+### 8 Continuous Delivery
 For the continuous delivery pipeline I used Travis CI. In combination with pybuilder it is very 
 convenient to use. Every time I push to my repository a new build is triggered. 
 
@@ -119,7 +125,7 @@ is the corresponding website for the CD management.
 A badge was included to always show the status of the last build process.
 Also a [screenshot](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/travis-ci.png) was added to show the result of the Travis CI-website.
 
-### 8 IDE
+### 9 IDE
 
 I chose PyCharm as IDE. Before, I always used Microsoft Visual Studio as IDE as I knew it 
 from my Bachelors. But after I decided to try out Python a bit more and not C, I decided
@@ -136,10 +142,10 @@ My favorite shortcuts are:
 - Hitting TAB: For auto-completion when typing a variable or function name.
 - Hitting Shift twice: For searching within the whole project for a variable, a string or a function.
 
-### 9 DSL
+### 10 DSL
 DSLs are still missing in the actual version cause we didn't cover the topic in the lectures yet.
 
-### 10 Functional Programming
+### 11 Functional Programming
 
 All over this project I tried to use as much as functional programming as possible. Below, there are some links to examples for the implementation:
 1. Final data structures: [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)

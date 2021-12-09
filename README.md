@@ -44,8 +44,8 @@ project. I also created a [component diagram including the funding of Edlich Inv
 
 ### 2 DDD
 While planning the project I created a [problem space](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ddd_problem_space.png) with several different 
-subdomains and components which have to be implemented. Some are already implemented,
-(green) some have to be implemented in the future (yellow).
+subdomains and components which have to be implemented. Some have been already implemented since then,
+(green) some have to be implemented in the future (yellow), when I received the 5 million Euro from Edlich investments.
 Furthermore, I created a [glossary](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/ubiquitous_language.pdf) to specify the domain specific ubiquitous 
 language.
 
@@ -105,6 +105,7 @@ worth.
 [Here](https://github.com/MaraAcuja/SudokuGame/blob/main/build.py) is my build file.
 
 ### 6 Unit-Tests
+The Unittests are not yet implemented.
 
 ### 7 Continuous Delivery
 For the continuous delivery pipeline I used Travis CI. In combination with pybuilder it is very 

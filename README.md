@@ -111,7 +111,9 @@ worth.
 [Here](https://github.com/MaraAcuja/SudokuGame/blob/main/build.py) is my build file.
 
 ### 7 Unit-Tests
-The Unittests are not yet implemented.
+Two nice unit tests are written. The first one tests the function if the Sudoku is solved correctly. One correct case and
+several wrong cases. As second a unit test is written to check if the solver works. This is also tested by an already
+solved Sudoku, a wrong one and one which is partly done but correct so far. The tests can be found [here](https://github.com/MaraAcuja/SudokuGame/blob/main/src/unittest/python/sudoku_logic_tests.py).
 
 ### 8 Continuous Delivery
 For the continuous delivery pipeline I used Travis CI. In combination with pybuilder it is very 

@@ -4,6 +4,8 @@ import numpy as np
 
 def test_sudoku(_numbers):
     error = 0
+
+    # This is the first closured function. It just exists inside the test_sudoku()-function.
     def is_same_element_in_row_and_column(_error):
         # test if same element in row and column
         error = _error
@@ -14,6 +16,7 @@ def test_sudoku(_numbers):
                         error = 1
         return error
 
+    # This is the second closured function.
     def is_same_element_in_squares(_error):
         # test if same element in squares
         error = _error
@@ -29,6 +32,7 @@ def test_sudoku(_numbers):
                                     error = 1
         return error
 
+    # And here is a third one.
     def is_solved_completely(_error):
         # test if Sudoku is solved completely
         error = _error

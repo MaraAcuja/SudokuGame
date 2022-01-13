@@ -162,4 +162,4 @@ file into python code and executes each line.
 All over this project I tried to use as much as functional programming as possible. Below, there are some links to examples for the implementation:
 1. Final data structures: [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)
 2. Side-effect-free functions: [user_output.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/user_output.py)
-3. Closured / anonymous functions: [sudoku_logic.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py)
+3. Closured / anonymous functions: [sudoku_logic.py](https://github.com/MaraAcuja/SudokuGame/blob/main/src/main/python/sudoku_logic.py#L8)

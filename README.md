@@ -145,7 +145,17 @@ My favorite shortcuts are:
 - Hitting Shift twice: For searching within the whole project for a variable, a string or a function.
 
 ### 10 DSL
-DSLs are still missing in the actual version cause we didn't cover the topic in the lectures yet.
+My DSL is independent from the Sudoku Game.
+
+I coded a small helper for an airport parking manager. He suffers the whole day by counting how many cars, busses, taxis,
+planes and helicopters arrive at and depart from the airport. Now he just has to add how many of them 
+arrive and leave every hour and then he just asks the program afterwards "How many cars/busses/... are at the airport?" The 
+program does the adding and subtraction for him.
+
+The [.dsl file](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/airport.dsl) contains the external DSL code.
+The [interpreter](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/dsl_interpreter.py) is used to convert the .dsl 
+file into python code and executes each line.
+
 
 ### 11 Functional Programming
 

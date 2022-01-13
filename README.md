@@ -129,13 +129,13 @@ Also a [screenshot](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/trav
 
 ### 9 IDE
 
-I chose PyCharm as IDE. Before, I always used Microsoft Visual Studio as IDE as I knew it 
+I chose PyCharm as [IDE](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/pycharm_as_IDE.png). Before, I always used Microsoft Visual Studio as IDE as I knew it 
 from my Bachelors. But after I decided to try out Python a bit more and not C, I decided
 to also change the IDE this time. Smaller projects in Python I completed in Python IDLE in
 the past. But after I heard of PyCharm I wanted to try this one out also for a bigger project.
 
 And I am very happy with my choice as PyCharm includes all features like easy refactoring, 
-a clear structured project organisation, an integrated git plugin for pulling, commiting and 
+a clear structured project organisation, an integrated [git plugin](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/usage_of_git_from_ide.png) for pulling, commiting and 
 pushing, a terminal and most important auto-completion.
 
 My favorite shortcuts are:

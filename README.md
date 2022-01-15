@@ -110,6 +110,10 @@ worth.
 
 [Here](https://github.com/MaraAcuja/SudokuGame/blob/main/build.py) is my build file.
 
+I also added the [log file](https://github.com/MaraAcuja/SudokuGame/blob/main/tasks/Build_log.txt) to this project to proof
+that the build ran succesfully.
+
+
 ### 7 Unit-Tests
 Two nice unit tests are written. The first one tests the function if the Sudoku is solved correctly. One correct case and
 several wrong cases. As second a unit test is written to check if the solver works. This is also tested by an already

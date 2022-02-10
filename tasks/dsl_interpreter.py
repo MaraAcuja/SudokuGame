@@ -42,10 +42,6 @@ with open(sys.argv[1]) as file:
 
         else:
             a = parking[parts[1]]
-            #print("a: " + str(a))
-            #print(type(a))
             b = int(parts[0])
-            #print("b: " + str(b))
-            #print(type(b))
 
             parking[parts[1]] = functions[parts[2]](a, b)
